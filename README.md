@@ -1,5 +1,7 @@
 # GitHub actions for aliyun OSS toolkit
 
+![CI for ossutil github action](https://github.com/doggycool/ossutil-github-action/workflows/CI%20for%20ossutil%20github%20action/badge.svg)
+
 > update/download/upload files from/to aliyun oss
 
 
