@@ -1,7 +1,10 @@
+name: CI for ossutil github action
+
 on:
   push:
-    tags:
-      - v*
+    branches:
+      - master
+  workflow_dispatch:
 
 jobs:
   test-publish-docker:
