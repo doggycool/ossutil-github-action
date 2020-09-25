@@ -30,4 +30,6 @@ jobs:
           endpoint: oss-cn-shanghai.aliyuncs.com
 
       - name: Output command
-        run: echo "${{steps.ossutil.outputs.command}}"
+        run: |
+          echo "${{steps.ossutil.outputs.command}}"
+          cat 1k
