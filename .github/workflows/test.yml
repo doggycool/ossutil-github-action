@@ -21,7 +21,7 @@ jobs:
         id: ossutil
         uses: doggycool/ossutil-github-action@master
         with:
-          ossArgs: 'cp oss://nordata-cdn/choppy/about-us.md ./'
+          ossArgs: 'cp oss://doggycool/demo/1k ./'
           accessKey: ${{ secrets.ALIYUN_ACCESS_KEY }}
           accessSecret: ${{ secrets.ALIYUN_ACCESS_SECRET }}
           endpoint: oss-cn-shanghai.aliyuncs.com
