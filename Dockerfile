@@ -1,4 +1,4 @@
-FROM apline:3.10
+FROM alpine:3.10
 
 LABEL "name"="ossutil-github-action"
 LABEL "maintainer"="DoggyCool <hello@doggy.cool>"
