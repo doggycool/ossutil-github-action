@@ -19,7 +19,7 @@ jobs:
 
       - name: Download files
         id: ossutil
-        uses: go-choppy/ossutil-github-action@master
+        uses: doggycool/ossutil-github-action@master
         with:
           ossArgs: 'cp oss://nordata-cdn/choppy/about-us.md ./'
           accessKey: ${{ secrets.ALIYUN_ACCESS_KEY }}
